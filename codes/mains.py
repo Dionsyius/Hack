@@ -69,7 +69,7 @@ def ascii_art_main():
     
 def ascii_art_warning():
     console.print("═" * 121, style="bold red")
-    console.print("═" * 38 + " https://github.com/Dionsyius/Hacks.git " + "═" * 38, style="bold red")
+    console.print("═" * 38 + "  " + "═" * 38, style="bold red")
     console.print("═" * 121, style="bold red")
 
     banner = """ 
