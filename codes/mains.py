@@ -69,7 +69,7 @@ def ascii_art_main():
     
 def ascii_art_warning():
     console.print("═" * 121, style="bold red")
-    console.print("═" * 38 + " https://github.com/Dionsyius/Open-Source.git " + "═" * 38, style="bold red")
+    console.print("═" * 38 + " https://github.com/Dionsyius/Hacks.git " + "═" * 38, style="bold red")
     console.print("═" * 121, style="bold red")
 
     banner = """ 
@@ -109,10 +109,10 @@ def chat_option():
     console.print("[bold blue][2][/bold blue] if you want to connect to a server")
     console.print("[bold blue][3][/bold blue] to return to the menu")
 
-    option = int(console.input("\n┌── [[bold green]$ IANS $[/bold green]] ── [[bold red]chat[/bold red]]:\n└───> "))
+    option = int(console.input("\n┌── [[bold green]$ MAINS $[/bold green]] ── [[bold red]chat[/bold red]]:\n└───> "))
     while option not in (1, 2, 3):
         console.print("Invalid choice", style="italic yellow")
-        option = int(console.input("\n┌── [[bold green]$ IANS $[/bold green]] ── [[bold red]chat[/bold red]]:\n└───> "))
+        option = int(console.input("\n┌── [[bold green]$ MAINS $[/bold green]] ── [[bold red]chat[/bold red]]:\n└───> "))
     
     clear_screen()
     if option == 1:
@@ -190,10 +190,10 @@ def mapper_options():
     console.print("\n[bold blue][1][/bold blue] if you have an open source site ")
     console.print("[bold blue][2][/bold blue] if you want to bruteforce file position ")
     console.print("[bold blue][3][/bold blue] to return to the menu ")
-    option = int(console.input("\n┌── [[bold green]$ IANS $[/bold green]] ── [[bold red]mapper[/bold red]]:\n└───> "))
+    option = int(console.input("\n┌── [[bold green]$ MAINS $[/bold green]] ── [[bold red]mapper[/bold red]]:\n└───> "))
     while option not in (1, 2, 3):
         console.print("Invalid choice", style="italic yellow")
-        option = int(console.input("\n┌── [[bold green]$ IANS $[/bold green]] ── [[bold red]mapper[/bold red]]:\n└───> "))
+        option = int(console.input("\n┌── [[bold green]$ MAINS $[/bold green]] ── [[bold red]mapper[/bold red]]:\n└───> "))
     clear_screen()
     if option == 1:
         mapper.initialize()
@@ -204,10 +204,10 @@ def mapper_options():
 
 def option_input():
     try:
-        option = int(console.input("\n┌── [[bold green]$ IANS $[/bold green]] ── [[bold red]main[/bold red]]:\n└───> "))
+        option = int(console.input("\n┌── [[bold green]$ MAINS $[/bold green]] ── [[bold red]main[/bold red]]:\n└───> "))
         while option > 14 or option < 1:
             console.print("Invalid choice", style="italic yellow")
-            option = int(console.input("\n┌── [[bold green]$ IANS $[/bold green]] ── [[bold red]main[/bold red]]:\n└───> "))
+            option = int(console.input("\n┌── [[bold green]$ MAINS $[/bold green]] ── [[bold red]main[/bold red]]:\n└───> "))
 
     except ValueError:
         console.print("Invalid choice", style="italic yellow")
@@ -227,12 +227,12 @@ def show_info():
        \_\              "             " 
     """)
 
-    console.print("[bold blue]Author[/bold blue]: Giovanni Iannaccone")
+    console.print("[bold blue]Author[/bold blue]: Raphael Odinamkpa")
     console.print(f"[bold blue]Version[/bold blue]: {version}")
     console.print("\n[bold green]▉[/bold green][bold white]▉[/bold white][bold red]▉[/bold red]")
 
     console.print("""\nTool written for educational purpose only, the user know what he is doing 
-and the author is not responsible for any malicious tool of IANS""", style="bold red")
+and the author is not responsible for any malicious tool of MAINS""", style="bold red")
 
     try:
         console.input("\n[red]Press [bold]Enter[/bold] to continue[/red] ")
@@ -264,10 +264,10 @@ def sniffer_options():
     console.print("[bold blue][2][/bold blue] for email scanning ")
     console.print("[bold blue][3][/bold blue] for image scanning ")
     console.print("[bold blue][4][/bold blue] to return to the menu ")
-    option = int(console.input("\n┌── [[bold green]$ IANS $[/bold green]] ── [[bold red]sniffer[/bold red]]:\n└───> "))
+    option = int(console.input("\n┌── [[bold green]$ MAINS $[/bold green]] ── [[bold red]sniffer[/bold red]]:\n└───> "))
     while option not in (1, 2, 3, 4):
         console.print("Invalid choice", style="italic yellow")
-        option = int(console.input("\n┌── [[bold green]$ IANS $[/bold green]] ── [[bold red]sniffer[/bold red]]:\n└───> "))
+        option = int(console.input("\n┌── [[bold green]$ MAIN $[/bold green]] ── [[bold red]sniffer[/bold red]]:\n└───> "))
     clear_screen()
     if option == 1:
         sniffer.initialize()

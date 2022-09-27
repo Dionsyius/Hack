@@ -1,8 +1,7 @@
 from multiprocessing import Process
 from rich.console import Console
 from scapy.all import  ARP, Ether, conf, send, sniff, srp, wrpcap
-import os 
-import threading
+
 
 import sys
 import time

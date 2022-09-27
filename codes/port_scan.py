@@ -23,7 +23,7 @@ def exiting():
     sys.exit()
 
 def extract_json():
-    with open("../bkc/common_ports.json", "r") as file:
+    with open( "../open source/bkc/common_ports.json", "r") as file:
         data = json.load(file)
         file.close()
         return data
